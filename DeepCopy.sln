@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HD_DeepCopy", "DeepCopy\HD_DeepCopy.csproj", "{B79F1A79-3968-4C74-A909-DFB05599E9F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeepCloneFactory", "ShallowCopy\DeepCloneFactory.csproj", "{7149930E-2BE4-42DA-BF37-50F6718F56BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B79F1A79-3968-4C74-A909-DFB05599E9F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B79F1A79-3968-4C74-A909-DFB05599E9F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B79F1A79-3968-4C74-A909-DFB05599E9F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B79F1A79-3968-4C74-A909-DFB05599E9F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7149930E-2BE4-42DA-BF37-50F6718F56BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7149930E-2BE4-42DA-BF37-50F6718F56BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7149930E-2BE4-42DA-BF37-50F6718F56BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7149930E-2BE4-42DA-BF37-50F6718F56BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

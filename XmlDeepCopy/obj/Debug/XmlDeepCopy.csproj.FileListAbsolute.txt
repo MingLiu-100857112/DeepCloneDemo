@@ -1,0 +1,16 @@
+C:\Users\leo\Desktop\OOP-Research-Report\DeepCopy_Attribute_completed - Copy\XmlDeepCopy\bin\Debug\XmlDeepCopy.exe.config
+C:\Users\leo\Desktop\OOP-Research-Report\DeepCopy_Attribute_completed - Copy\XmlDeepCopy\obj\Debug\XmlDeepCopy.csprojResolveAssemblyReference.cache
+C:\Users\leo\Desktop\OOP-Research-Report\DeepCopy_Attribute_completed - Copy\XmlDeepCopy\bin\Debug\XmlDeepCopy.exe
+C:\Users\leo\Desktop\OOP-Research-Report\DeepCopy_Attribute_completed - Copy\XmlDeepCopy\bin\Debug\XmlDeepCopy.pdb
+C:\Users\leo\Desktop\OOP-Research-Report\DeepCopy_Attribute_completed - Copy\XmlDeepCopy\obj\Debug\XmlDeepCopy.exe
+C:\Users\leo\Desktop\OOP-Research-Report\DeepCopy_Attribute_completed - Copy\XmlDeepCopy\obj\Debug\XmlDeepCopy.pdb
+C:\Users\leo\Desktop\OOP-Research-Report\DeepCopy_Attribute_completed - Copy\XmlDeepCopy\bin\Debug\ShallowCopy.exe
+C:\Users\leo\Desktop\OOP-Research-Report\DeepCopy_Attribute_completed - Copy\XmlDeepCopy\bin\Debug\ShallowCopy.pdb
+C:\Users\leo\Desktop\OOP-Research-Report\DeepCopy_Attribute_completed_finish_decoration\XmlDeepCopy\bin\Debug\XmlDeepCopy.exe.config
+C:\Users\leo\Desktop\OOP-Research-Report\DeepCopy_Attribute_completed_finish_decoration\XmlDeepCopy\bin\Debug\XmlDeepCopy.exe
+C:\Users\leo\Desktop\OOP-Research-Report\DeepCopy_Attribute_completed_finish_decoration\XmlDeepCopy\bin\Debug\XmlDeepCopy.pdb
+C:\Users\leo\Desktop\OOP-Research-Report\DeepCopy_Attribute_completed_finish_decoration\XmlDeepCopy\bin\Debug\ShallowCopy.exe
+C:\Users\leo\Desktop\OOP-Research-Report\DeepCopy_Attribute_completed_finish_decoration\XmlDeepCopy\bin\Debug\ShallowCopy.pdb
+C:\Users\leo\Desktop\OOP-Research-Report\DeepCopy_Attribute_completed_finish_decoration\XmlDeepCopy\obj\Debug\XmlDeepCopy.csprojResolveAssemblyReference.cache
+C:\Users\leo\Desktop\OOP-Research-Report\DeepCopy_Attribute_completed_finish_decoration\XmlDeepCopy\obj\Debug\XmlDeepCopy.exe
+C:\Users\leo\Desktop\OOP-Research-Report\DeepCopy_Attribute_completed_finish_decoration\XmlDeepCopy\obj\Debug\XmlDeepCopy.pdb
