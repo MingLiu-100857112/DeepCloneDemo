@@ -22,7 +22,6 @@ namespace HD_DeepCopy
             //_name = "Andrew Chen";
             _school = "Swinburne";
             _lectureOffice = new Colleagues();
-            //LectureOffice.officeNo_1 = "EA302";
             _unit = "Computer Science";
             _studentIDs = new int[] { 100, 101, 102, 103 };
             _history.History_1 = "Researcher in Monash University: 2000-2002";
@@ -43,7 +42,14 @@ namespace HD_DeepCopy
 
         public int LecNo
         {
-            get { return _lecNo; }
+            get
+            {
+                return _lecNo;
+            }
+            set
+            {
+                _lecNo = value;
+            }
         }
 
         public Colleagues LectureOffice
@@ -58,7 +64,6 @@ namespace HD_DeepCopy
             {
                 return _studentIDs;
             }
-
             set
             {
                 _studentIDs = value;
@@ -91,8 +96,10 @@ namespace HD_DeepCopy
             }
         }
 
-        //[CloneAllow(CloneSwitch.NOT_ALLOW)]
-        //[CloneAllow((CloneSwitch.ALLOW), "Name")]
+        // Attach the CloneAllowAttribute to this property.
+        // Note the use of the 'cs' enum and 'pt' string arguments to the CloneAllowAttribute.
+        [CloneAllow(CloneSwitch.NOT_ALLOW)]
+        [CloneAllow((CloneSwitch.ALLOW), "Name")]
         public string Name
         {
             get
@@ -127,7 +134,6 @@ namespace HD_DeepCopy
         public Object Clone()
         {
             Lecture lec = MemberWiseShallowClone();
-            lec._school = String.Empty;
             return lec;
         }
 
@@ -142,17 +148,17 @@ namespace HD_DeepCopy
             return (Lecture)obj;
         }
 
-        public Lecture DeepClone_BinSerFile(string fileName)
-        {
-            Stream newstream = File.Open("lecture.bin", FileMode.Create);
-            BinaryFormatter newbinFormatter = new BinaryFormatter();
-            newbinFormatter.Serialize(newstream, this);
-            newstream.Close();
-            newstream = File.Open("lecture.bin", FileMode.Open);
-            Lecture lec = (Lecture)newbinFormatter.Deserialize(newstream);
-            newstream.Close();
-            return lec;
-        }
+        //public Lecture DeepClone_BinSerFile(string fileName)
+        //{
+        //    Stream newstream = File.Open("lecture.bin", FileMode.Create);
+        //    BinaryFormatter newbinFormatter = new BinaryFormatter();
+        //    newbinFormatter.Serialize(newstream, this);
+        //    newstream.Close();
+        //    newstream = File.Open("lecture.bin", FileMode.Open);
+        //    Lecture lec = (Lecture)newbinFormatter.Deserialize(newstream);
+        //    newstream.Close();
+        //    return lec;
+        //}
 
         public Lecture DeepClone_XmlSer()
         {
